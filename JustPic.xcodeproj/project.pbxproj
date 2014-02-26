@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0421403118BDDC0700B7D41A /* PhotoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0421402F18BDDC0700B7D41A /* PhotoDetailViewController.m */; };
+		0421403218BDDC0700B7D41A /* PhotoDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0421403018BDDC0700B7D41A /* PhotoDetailViewController.xib */; };
 		04E102A918BD85F600D69B3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E102A818BD85F600D69B3A /* Foundation.framework */; };
 		04E102AB18BD85F600D69B3A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E102AA18BD85F600D69B3A /* CoreGraphics.framework */; };
 		04E102AD18BD85F600D69B3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E102AC18BD85F600D69B3A /* UIKit.framework */; };
@@ -21,6 +23,19 @@
 		04E102CA18BD85F600D69B3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E102AC18BD85F600D69B3A /* UIKit.framework */; };
 		04E102D218BD85F600D69B3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04E102D018BD85F600D69B3A /* InfoPlist.strings */; };
 		04E102D418BD85F600D69B3A /* JustPicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E102D318BD85F600D69B3A /* JustPicTests.m */; };
+		04E102DE18BD863200D69B3A /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E102DD18BD863200D69B3A /* Parse.framework */; };
+		04E102E018BD864800D69B3A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E102DF18BD864800D69B3A /* AudioToolbox.framework */; };
+		04E102E218BD865600D69B3A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E102E118BD865600D69B3A /* CFNetwork.framework */; };
+		04E102E418BD866C00D69B3A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E102E318BD866C00D69B3A /* CoreLocation.framework */; };
+		04E102E618BD867D00D69B3A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E102E518BD867D00D69B3A /* libz.dylib */; };
+		04E102E818BD868600D69B3A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E102E718BD868600D69B3A /* MobileCoreServices.framework */; };
+		04E102EA18BD868F00D69B3A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E102E918BD868F00D69B3A /* QuartzCore.framework */; };
+		04E102EC18BD869B00D69B3A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E102EB18BD869B00D69B3A /* Security.framework */; };
+		04E102EE18BD86A600D69B3A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E102ED18BD86A600D69B3A /* StoreKit.framework */; };
+		04E102F018BD86B800D69B3A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E102EF18BD86B800D69B3A /* SystemConfiguration.framework */; };
+		04E102F318BD90E100D69B3A /* CameraHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E102F218BD90E100D69B3A /* CameraHelper.m */; };
+		04E102F618BDD06B00D69B3A /* PFObjectImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E102F518BDD06B00D69B3A /* PFObjectImageCell.m */; };
+		04E102F818BDD0AC00D69B3A /* PFObjectImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E102F718BDD0AC00D69B3A /* PFObjectImageCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +49,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0421402E18BDDC0700B7D41A /* PhotoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoDetailViewController.h; sourceTree = "<group>"; };
+		0421402F18BDDC0700B7D41A /* PhotoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoDetailViewController.m; sourceTree = "<group>"; };
+		0421403018BDDC0700B7D41A /* PhotoDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoDetailViewController.xib; sourceTree = "<group>"; };
 		04E102A518BD85F600D69B3A /* JustPic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustPic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E102A818BD85F600D69B3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		04E102AA18BD85F600D69B3A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +71,21 @@
 		04E102CF18BD85F600D69B3A /* JustPicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JustPicTests-Info.plist"; sourceTree = "<group>"; };
 		04E102D118BD85F600D69B3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04E102D318BD85F600D69B3A /* JustPicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JustPicTests.m; sourceTree = "<group>"; };
+		04E102DD18BD863200D69B3A /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		04E102DF18BD864800D69B3A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		04E102E118BD865600D69B3A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		04E102E318BD866C00D69B3A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		04E102E518BD867D00D69B3A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		04E102E718BD868600D69B3A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		04E102E918BD868F00D69B3A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		04E102EB18BD869B00D69B3A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		04E102ED18BD86A600D69B3A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		04E102EF18BD86B800D69B3A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		04E102F118BD90E100D69B3A /* CameraHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraHelper.h; sourceTree = "<group>"; };
+		04E102F218BD90E100D69B3A /* CameraHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraHelper.m; sourceTree = "<group>"; };
+		04E102F418BDD06B00D69B3A /* PFObjectImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFObjectImageCell.h; sourceTree = "<group>"; };
+		04E102F518BDD06B00D69B3A /* PFObjectImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFObjectImageCell.m; sourceTree = "<group>"; };
+		04E102F718BDD0AC00D69B3A /* PFObjectImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PFObjectImageCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +93,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E102F018BD86B800D69B3A /* SystemConfiguration.framework in Frameworks */,
+				04E102EE18BD86A600D69B3A /* StoreKit.framework in Frameworks */,
+				04E102EC18BD869B00D69B3A /* Security.framework in Frameworks */,
+				04E102EA18BD868F00D69B3A /* QuartzCore.framework in Frameworks */,
+				04E102E818BD868600D69B3A /* MobileCoreServices.framework in Frameworks */,
+				04E102E618BD867D00D69B3A /* libz.dylib in Frameworks */,
+				04E102E418BD866C00D69B3A /* CoreLocation.framework in Frameworks */,
 				04E102AB18BD85F600D69B3A /* CoreGraphics.framework in Frameworks */,
+				04E102E218BD865600D69B3A /* CFNetwork.framework in Frameworks */,
+				04E102E018BD864800D69B3A /* AudioToolbox.framework in Frameworks */,
 				04E102AD18BD85F600D69B3A /* UIKit.framework in Frameworks */,
+				04E102DE18BD863200D69B3A /* Parse.framework in Frameworks */,
 				04E102A918BD85F600D69B3A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +144,16 @@
 		04E102A718BD85F600D69B3A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				04E102EF18BD86B800D69B3A /* SystemConfiguration.framework */,
+				04E102ED18BD86A600D69B3A /* StoreKit.framework */,
+				04E102EB18BD869B00D69B3A /* Security.framework */,
+				04E102E918BD868F00D69B3A /* QuartzCore.framework */,
+				04E102E718BD868600D69B3A /* MobileCoreServices.framework */,
+				04E102E518BD867D00D69B3A /* libz.dylib */,
+				04E102E318BD866C00D69B3A /* CoreLocation.framework */,
+				04E102E118BD865600D69B3A /* CFNetwork.framework */,
+				04E102DF18BD864800D69B3A /* AudioToolbox.framework */,
+				04E102DD18BD863200D69B3A /* Parse.framework */,
 				04E102A818BD85F600D69B3A /* Foundation.framework */,
 				04E102AA18BD85F600D69B3A /* CoreGraphics.framework */,
 				04E102AC18BD85F600D69B3A /* UIKit.framework */,
@@ -117,6 +170,14 @@
 				04E102BA18BD85F600D69B3A /* Main.storyboard */,
 				04E102BD18BD85F600D69B3A /* ViewController.h */,
 				04E102BE18BD85F600D69B3A /* ViewController.m */,
+				0421402E18BDDC0700B7D41A /* PhotoDetailViewController.h */,
+				0421402F18BDDC0700B7D41A /* PhotoDetailViewController.m */,
+				0421403018BDDC0700B7D41A /* PhotoDetailViewController.xib */,
+				04E102F718BDD0AC00D69B3A /* PFObjectImageCell.xib */,
+				04E102F418BDD06B00D69B3A /* PFObjectImageCell.h */,
+				04E102F518BDD06B00D69B3A /* PFObjectImageCell.m */,
+				04E102F118BD90E100D69B3A /* CameraHelper.h */,
+				04E102F218BD90E100D69B3A /* CameraHelper.m */,
 				04E102C018BD85F600D69B3A /* Images.xcassets */,
 				04E102AF18BD85F600D69B3A /* Supporting Files */,
 			);
@@ -228,8 +289,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0421403218BDDC0700B7D41A /* PhotoDetailViewController.xib in Resources */,
 				04E102C118BD85F600D69B3A /* Images.xcassets in Resources */,
 				04E102B318BD85F600D69B3A /* InfoPlist.strings in Resources */,
+				04E102F818BDD0AC00D69B3A /* PFObjectImageCell.xib in Resources */,
 				04E102BC18BD85F600D69B3A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,7 +313,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				04E102BF18BD85F600D69B3A /* ViewController.m in Sources */,
+				04E102F618BDD06B00D69B3A /* PFObjectImageCell.m in Sources */,
 				04E102B918BD85F600D69B3A /* AppDelegate.m in Sources */,
+				04E102F318BD90E100D69B3A /* CameraHelper.m in Sources */,
+				0421403118BDDC0700B7D41A /* PhotoDetailViewController.m in Sources */,
 				04E102B518BD85F600D69B3A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,6 +444,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/ananfang/Documents/iOSDev/Tests/JustPic,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JustPic/JustPic-Prefix.pch";
 				INFOPLIST_FILE = "JustPic/JustPic-Info.plist";
@@ -391,6 +461,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/ananfang/Documents/iOSDev/Tests/JustPic,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JustPic/JustPic-Prefix.pch";
 				INFOPLIST_FILE = "JustPic/JustPic-Info.plist";
@@ -460,6 +534,7 @@
 				04E102D918BD85F600D69B3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04E102DA18BD85F600D69B3A /* Build configuration list for PBXNativeTarget "JustPicTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +543,7 @@
 				04E102DC18BD85F600D69B3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
